@@ -1,0 +1,19 @@
+{
+  "tabs": [
+    {
+      "label": "Resources",
+      "taks": [
+        {
+          "label": "Links",
+          "content": [
+            {
+              "title": "Soy la tarea uno",
+              "description": "Debo hacer el pastel",
+              "status": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
