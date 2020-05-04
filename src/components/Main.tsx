@@ -14,26 +14,10 @@ const data: MappinTabProps[] = [
     label: "Resources",
     taks: [
       {
-        label: "Links",
+        label: "Sample",
         content: [
           {
-            title: "Soy la tarea uno",
-            description: "Debo hacer el pastel",
-            status: false,
-          },
-        ],
-      },
-    ],
-  },
-  {
-    label: "To Do",
-    taks: [
-      {
-        label: "WireFrame",
-        content: [
-          {
-            title: "Soy la tarea uno",
-            description: "Debo hacer el queso",
+            description: "Sample content of task",
             status: false,
           },
         ],
@@ -55,7 +39,6 @@ interface TaskI {
 }
 
 interface ContentInterface {
-  title: string;
   description: string;
   status: Boolean;
 }

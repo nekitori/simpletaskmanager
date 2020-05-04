@@ -40,7 +40,6 @@ interface Taski2 {
 }
 
 interface ContentInterface {
-  title: string;
   description: string;
   status: Boolean;
 }
@@ -68,7 +67,7 @@ function Tab(props: TabsInterface): JSX.Element {
     const arrayTabs: TaskI[] = tabs;
     arrayTabs[i].content = [
       ...arrayTabs[i].content,
-      { title: arrayTabs[i].label, description: addCont, status: false },
+      { description: addCont, status: false },
     ];
     setTabs(arrayTabs);
     changeContent(arrayTabs[i], i);

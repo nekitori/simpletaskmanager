@@ -6,3 +6,5 @@ its a simple task manager.
 ## LiveDemo
 
 https://simple-task-manager.netlify.app
+
+## If you reload the page the data will be reset
